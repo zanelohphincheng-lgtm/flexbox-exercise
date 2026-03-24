@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Medium Layout</title>
+        <style>
+            body{
+                margin: 0;
+                font-family: Arial, Helvetica, sans-serif;
+                display: flex;
+                flex-direction: column;
+                min-height: 100vh;
+            }
+            header{
+                height: 80px;
+                background-color: rgb(236, 236, 236);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+            footer{
+                height: 60px;
+                background-color: rgb(236, 236, 236);
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                font-size: 10px;
+                min-width: 100%;
+            }
+            main{
+                display: flex;
+                flex: 1;
+            }
+            aside{
+                width: 200px;
+                background-color: rgb(224, 224, 224);
+                padding: 20px;
+                font-size: 20px;
+            }
+            article{
+                padding: 20px;
+                background-color: rgb(254, 254, 254);
+                text-align: left;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+        <h2>Application Layout</h2>
+        </header>
+        <main>
+            <aside>
+                <strong>Navigation</strong>
+                <ul>
+                    <li>Dashboard</li>
+                    <li>Projects</li>
+                    <li>Tasks</li>
+                    <li>Calendar</li>
+                    <li>Reports</li>
+                    <li>Settings</li>
+                </ul>
+            </aside>
+            <article>
+                <h3>Main Content Area</p>
+                <p>This is sidebar layout with a flexible main content area created using Flexbox.</p>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ad nostrum cumque, maiores eveniet placeat ipsam labore alias vel. Sit ex quidem omnis sapiente accusamus facere dolores? Magni praesentium expedita eum.</p>
+            </article>
+        </main>
+        <footer>
+            &copy; 2026 Application Layout. All rights reserved.
+        </footer>
+    </body>
+</html>
